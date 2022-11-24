@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appr-poe", "appr-poe\appr-poe.csproj", "{A165AD80-9C7B-47AF-88A3-2B355F7B260E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A165AD80-9C7B-47AF-88A3-2B355F7B260E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A165AD80-9C7B-47AF-88A3-2B355F7B260E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A165AD80-9C7B-47AF-88A3-2B355F7B260E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A165AD80-9C7B-47AF-88A3-2B355F7B260E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D86E526-6B47-4641-B4B5-46A81937F857}
+	EndGlobalSection
+EndGlobal

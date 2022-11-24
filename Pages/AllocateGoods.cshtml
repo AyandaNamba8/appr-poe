@@ -1,0 +1,31 @@
+﻿@page
+@model appr_poe.AllocateGoodsModel
+@{
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <div class="login-purple-pink p-3 shadow-lg rounded">
+        <form action="" method="POST" id="example-form" class="form" autocomplete="off">
+            <fieldset class="form__fieldset">
+                <div class="form__field">
+                    <label for="disastername" class="form__label">Disaster:</label>
+                    <input type="disaster" id="disaster" class="form__input" name="disaster" required>
+                </div>
+
+                <label for="typeofdonation" class="form__label">Type of Donation</label>
+                <select id="typeofdonation" class="form__input" name="typeofdonation">
+                    <option value="S"> Non - perishable food</option>
+                    <option value="M"> Clothes </option>
+                    <option value="L">Monetary</option>
+
+                </select>
+                <div class="form__actions">
+                    <button type="submit" class="btn btn--primary" id="submit">Submit Form</button>
+                    <div id="feedback" class="form__feedback" aria-live="assertive" role="alert"></div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+}
+
